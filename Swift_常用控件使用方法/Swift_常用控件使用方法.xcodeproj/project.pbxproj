@@ -15,6 +15,10 @@
 		B32F2D7422CDCB3200A81657 /* Swift_________UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32F2D7322CDCB3200A81657 /* Swift_________UITests.swift */; };
 		B32F2D8222CDCBF800A81657 /* JXMainTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32F2D8122CDCBF800A81657 /* JXMainTableVC.swift */; };
 		B32F2D8422CDD9FE00A81657 /* JXLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32F2D8322CDD9FE00A81657 /* JXLabel.swift */; };
+		B32F2D8622CDEB4600A81657 /* JXButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32F2D8522CDEB4600A81657 /* JXButton.swift */; };
+		B32F2D8822CF358700A81657 /* JXScrollViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32F2D8722CF358700A81657 /* JXScrollViewVC.swift */; };
+		B32F2D8A22CF39CE00A81657 /* JXStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32F2D8922CF39CE00A81657 /* JXStepper.swift */; };
+		B32F2D8C22D5738900A81657 /* JXDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32F2D8B22D5738900A81657 /* JXDatePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		B32F2D7522CDCB3200A81657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B32F2D8122CDCBF800A81657 /* JXMainTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXMainTableVC.swift; sourceTree = "<group>"; };
 		B32F2D8322CDD9FE00A81657 /* JXLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXLabel.swift; sourceTree = "<group>"; };
+		B32F2D8522CDEB4600A81657 /* JXButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXButton.swift; sourceTree = "<group>"; };
+		B32F2D8722CF358700A81657 /* JXScrollViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXScrollViewVC.swift; sourceTree = "<group>"; };
+		B32F2D8922CF39CE00A81657 /* JXStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXStepper.swift; sourceTree = "<group>"; };
+		B32F2D8B22D5738900A81657 /* JXDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXDatePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +109,15 @@
 			children = (
 				B32F2D5322CDCB3100A81657 /* AppDelegate.swift */,
 				B32F2D8122CDCBF800A81657 /* JXMainTableVC.swift */,
+				B32F2D8922CF39CE00A81657 /* JXStepper.swift */,
 				B32F2D8322CDD9FE00A81657 /* JXLabel.swift */,
+				B32F2D8522CDEB4600A81657 /* JXButton.swift */,
+				B32F2D8722CF358700A81657 /* JXScrollViewVC.swift */,
 				B32F2D5722CDCB3100A81657 /* Main.storyboard */,
 				B32F2D5A22CDCB3200A81657 /* Assets.xcassets */,
 				B32F2D5C22CDCB3200A81657 /* LaunchScreen.storyboard */,
 				B32F2D5F22CDCB3200A81657 /* Info.plist */,
+				B32F2D8B22D5738900A81657 /* JXDatePicker.swift */,
 			);
 			path = "Swift_常用控件使用方法";
 			sourceTree = "<group>";
@@ -260,8 +272,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B32F2D8222CDCBF800A81657 /* JXMainTableVC.swift in Sources */,
+				B32F2D8822CF358700A81657 /* JXScrollViewVC.swift in Sources */,
+				B32F2D8C22D5738900A81657 /* JXDatePicker.swift in Sources */,
 				B32F2D8422CDD9FE00A81657 /* JXLabel.swift in Sources */,
+				B32F2D8A22CF39CE00A81657 /* JXStepper.swift in Sources */,
 				B32F2D5422CDCB3100A81657 /* AppDelegate.swift in Sources */,
+				B32F2D8622CDEB4600A81657 /* JXButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

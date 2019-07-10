@@ -9,7 +9,7 @@
 import UIKit
 
 class JXMainTableVC: UITableViewController {
-    let listData:[String] = ["Label标签","Button标签"]
+    let listData:[String] = ["UILabel标签","UIButton标签","UIScrollView控件","UIStepper控件","UIDatePickerl控件"]
     override func viewDidLoad() {
         super.viewDidLoad()
         self.tableView.delegate = self
@@ -37,6 +37,22 @@ class JXMainTableVC: UITableViewController {
             let labVC = JXLabel()
             labVC.title = self.listData[indexPath.row]
             self.navigationController?.pushViewController(labVC, animated: true)
+        case 1:
+            let buttonVC = JXButton()
+            buttonVC.title = self.listData[indexPath.row]
+            self.navigationController?.pushViewController(buttonVC, animated: true)
+        case 2:
+            let scrollViewVC = JXScrollViewVC()
+            scrollViewVC.title = self.listData[indexPath.row]
+            self.navigationController?.pushViewController(scrollViewVC, animated: true)
+        case 3:
+            let stepperVC = JXStepper()
+            stepperVC.title = self.listData[indexPath.row]
+            self.navigationController?.pushViewController(stepperVC, animated: true)
+        case 4:
+            let datePickerVC = JXDatePicker()
+            datePickerVC.title = self.listData[indexPath.row]
+            self.navigationController?.pushViewController(datePickerVC, animated: true)
         default:
             break
         }
